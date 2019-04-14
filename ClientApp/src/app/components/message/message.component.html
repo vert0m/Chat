@@ -1,0 +1,7 @@
+<span class="nickname">
+  {{message.Nickname | uppercase}}
+</span>
+<div class="chat_body">
+  <p class="message_text" [ngClass]="{'my_msg': isMyMessage()}">{{message.Text}}</p>
+  <div class="chat_time">{{message.Date | date:'short'}}</div>
+</div>

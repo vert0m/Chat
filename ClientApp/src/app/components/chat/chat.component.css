@@ -1,0 +1,74 @@
+.container {
+    height: 100%;
+    padding: 20px 10px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+.chat_header {
+    background: #f5f3f3 none repeat scroll 0 0;
+    float: left;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 18px 10px;
+    width: 100%;
+    height: 40px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.message_section {
+    border: 1px solid #dddddd;
+    height: inherit;
+    border-radius: 5px;
+}
+
+.message_section .row{
+    height: inherit;
+}
+
+.chat_area {
+    background: #283c86;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    float: left;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    flex: 1;
+    width: 100%;
+}
+
+.chat_area li {
+    padding: 14px 14px 0;
+}
+
+.chat_area li:last-child {
+    padding-bottom: 10px;
+}
+
+.message_write {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: #f5f3f3 none repeat scroll 0 0;
+    float: left;
+    padding: 15px;
+    width: 100%;
+    height: 140px;
+}
+
+.message_write textarea.form-control {
+    resize: none;
+    height: 70px;
+    padding: 10px;
+}
+
+.chat_bottom {
+    float: left;
+    margin-top: 13px;
+    width: 100%;
+}

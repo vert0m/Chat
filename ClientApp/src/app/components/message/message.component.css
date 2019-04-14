@@ -1,0 +1,26 @@
+.chat_body p {
+    background: #fbf9fa none repeat scroll 0 0;
+    padding: 10px;
+}
+
+.chat_area .admin_chat .chat_body {
+    margin-left: 0;
+}
+
+.message_text {
+    margin: 0;
+    border-radius: 5px;
+    word-break: break-all;
+}
+
+.nickname {
+    font-weight: bold;
+}
+
+.chat_time {
+    font-style: italic;
+}
+
+.my_msg {
+    background: #a59de2 none repeat scroll 0 0 !important;
+}

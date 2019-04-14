@@ -1,0 +1,6 @@
+<ng-container *ngIf="!isSaved; else chat">
+    <app-welcome (nicknameSaved)="nicknameSaved($event)"></app-welcome>
+</ng-container>
+<ng-template #chat>
+    <app-chat></app-chat>
+</ng-template>

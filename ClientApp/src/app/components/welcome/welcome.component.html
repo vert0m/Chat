@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="offset-sm-4 col-sm-4 welcome_block">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">
+          <strong>Enter your nickname</strong>
+        </h3>
+      </div>
+      <div class="panel-body">
+        <form role="form">
+          <div class="form-group">
+            <input type="text" class="form-control" id="nickname_input" placeholder="Nickname" [(ngModel)]="nickname" name="nickname" required>
+            <div class="invalid_nickname" *ngIf="invalidNickname">
+                Please enter a nickname!
+            </div>
+          </div>
+          <button type="submit" class="btn btn-sm btn-light" (click)="enterNickname()">Let's chat!</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

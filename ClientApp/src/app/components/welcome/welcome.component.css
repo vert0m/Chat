@@ -1,0 +1,28 @@
+.container {
+    margin-top: 20px;
+}
+
+.panel-heading {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+form button {
+    display: block;
+    margin: 0 auto;
+}
+
+.invalid_nickname {
+    color: red;
+    text-align: center;
+}
+
+.welcome_block {
+    border: 1px solid #dddddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.panel-title {
+    color: #dddddd;
+}
